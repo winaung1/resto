@@ -3,7 +3,7 @@ import chef from '../../images/chef/chef.png'
 import garlic from '../../images/chef/Group 18.png'
 export const Right = () => {
   return (
-    <div className='relative px-4 py-4 w-full lg:w-3/4'>
+    <div data-aos-ease="linear" data-aos-duration="300" data-aos="zoom-in" data-aos-delay="500" className='relative px-4 py-4 w-full lg:w-3/4'>
    
         <div>
             <img alt='' className='h-[700px] w-full object-contain' src={chef}/>

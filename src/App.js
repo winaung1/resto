@@ -46,6 +46,8 @@ function App() {
     setTimeout(() => {
       setLoading(false)
     }, 2000)
+
+    Aos.init()
   }, [])
 
   const values = {filteredItems, setFilteredItems, Aos, setShowSideBar, showSideBar, handleClickScroll, goToTop, currentIndex, setCurrentIndex, scrolled, setScrolled}

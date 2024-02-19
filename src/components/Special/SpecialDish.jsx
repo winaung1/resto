@@ -21,7 +21,7 @@ export const SpecialDish = () => {
     <div className='relative bg-gray-100 py-20 px-4'>
         <h1 className='text-4xl text-center medium'>Our Special Dish</h1>
         <p className='text-center w-96 py-3 mx-auto text-gray-600'>Etiam hendrerit nec ipsum eu dictum. Nulla facilisi. Ut quis laoreet arcu, nec vehicula eros.</p>
-        <div className='grid md:grid-cols-2 gap-10 lg:flex justify-center max-w-7xl mx-auto items-center space-x-6 text-center py-8 z-10'>
+        <div data-aos-ease="linear" data-aos-duration="300" data-aos="zoom-in" data-aos-delay="300" className='grid md:grid-cols-2 gap-10 lg:flex justify-center max-w-7xl mx-auto items-center space-x-6 text-center py-8 z-10'>
             {
                 dishes.map(dish => (
                     <div className='relative w-80'>

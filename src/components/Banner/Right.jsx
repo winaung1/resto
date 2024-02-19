@@ -6,7 +6,7 @@ import banner4 from '../../images/Banner/Layer3.png'
 import banner5 from '../../images/Banner/Layer4.png'
 export const Right = () => {
   return (
-    <div className='px-4 py-14 lg:py-4 w-full lg:w-3/4'>
+    <div data-aos-ease="linear" data-aos-duration="300" data-aos="zoom-in" data-aos-delay="500" className='px-4 py-14 lg:py-4 w-full lg:w-3/4'>
         <div className='relative z-10'>
             <div>
                 <img alt='' className='h-[500px] w-full' src={banner1}/>

@@ -8,7 +8,7 @@ import leaf4 from '../../images/special/leaf-1.png'
 
 export const Left = () => {
   return (
-    <div className=' w-3/4'>
+    <div data-aos-ease="linear" data-aos-duration="300" data-aos="zoom-in" data-aos-delay="300" className=' w-3/4'>
     
         <div className='w-[500px] relative' >
             <img className='w-full' src={welcome1} alt="" />
