@@ -7,7 +7,7 @@ export const Footer = () => {
     <div className='text-gray-500 px-4 relative py-20 max-w-7xl mx-auto md:flex md:space-x-6 justify-between'>
         <div>
             <img src={logo} alt="" />
-            <p className='w-80 py-4'>Aenean luctus nulla sit amet nibh ultricies, sit amet gravida libero venenatis. Nunc eu consectetur nisl. Phasellus ligula quam, maximus in hendrerit in, sagittis nec nisi.</p>
+            <p className='w-80 py-4'>Our motto, 'Where Every Bite Tells a Story,' reflects our commitment to crafting dishes with passion, purpose, and a touch of storytelling. </p>
 
             <h1 className='font-semibold py-2'>OPENING HOURS</h1>
             <div className='md:flex leading-10 md:space-x-4 '>

@@ -14,7 +14,7 @@ export const Left = () => {
   return (
     <div data-aos-ease="linear" data-aos-duration="300" data-aos="zoom-in" data-aos-delay="300" className='px-4 w-full lg:w-3/4 text-center lg:text-start'>
     <h1 className='text-5xl medium'>Our Expert Chefs</h1>
-    <p className='py-4 text-gray-500 md:w-3/4 lg:ml-0 mx-auto'>Aenean luctus nulla sit amet nibh ultricies, sit amet gravida libero venenatis. Nunc eu consectetur nisl. Phasellus ligula quam, maximus in hendrerit in, sagittis nec nisi. Cras maxim.</p>
+    <p className='py-4 text-gray-500 md:w-3/4 lg:ml-0 mx-auto'>Step into the world of culinary excellence with our esteemed chef. With a passion for innovation and a commitment to crafting unforgettable dining experiences, Chef brings a wealth of expertise to our kitchen.</p>
     <div className='px-4 grid md:grid-cols-2 md:w-fit lg:w-full mx-auto gap-5 py-10'>
         {
             lists.map(list => (

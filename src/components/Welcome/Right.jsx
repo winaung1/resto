@@ -7,7 +7,7 @@ export const Right = () => {
   return (
     <div data-aos-ease="linear" data-aos-duration="300" data-aos="zoom-in" data-aos-delay="500" className='relative px-4 lg:w-3/4 pb-10 lg:pb-0'>
         <h1 className='text-2xl medium'>Welcome to Our Restaurant</h1>
-        <p className='py-4 text-gray-500'>Etiam hendrerit nec ipsum eu dictum. Nulla facilisi. Ut quis laoreet arcu, nec vehicula eros. Praesent egestas gravida tincidunt. Etiam convallis.</p>
+        <p className='py-4 text-gray-500'>At our restaurant, we believe in creating culinary experiences that go beyond mere meals. Our motto, 'Where Every Bite Tells a Story,' reflects our commitment to crafting dishes with passion, purpose, and a touch of storytelling. From the first taste to the last, we invite you to savor not just flavors but the narratives behind each carefully prepared dish. Join us on a gastronomic journey where every bite is a chapter in a delightful culinary tale</p>
         <div className='flex items-center space-x-2 justify-center md:justify-start'>
         <Button name="Menu" bg={'bg-black'}/>
         <Button name="Book a table" bg={'bg-orange-500'}/>
