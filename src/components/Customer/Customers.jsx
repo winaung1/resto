@@ -17,7 +17,7 @@ export const Customers = () => {
   return (
     <div className='bg-gray-100 py-20 relative'>
          <h1 className='text-4xl text-center medium'>Our Happy Customers</h1>
-         <p className='text-center w-96 py-3 mx-auto text-gray-600'>These happy customers highly recommend our restaurant for a memorable dining experience.</p>
+         <p className='text-center px-4 md:w-96 py-3 mx-auto text-gray-600'>These happy customers highly recommend our restaurant for a memorable dining experience.</p>
 
          <div className='w-full md:w-[90%] hidescroll overflow-x-scroll ml-auto flex space-x-6 px-10'>
          {
