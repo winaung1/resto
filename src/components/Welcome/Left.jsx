@@ -10,7 +10,7 @@ export const Left = () => {
   return (
     <div data-aos-ease="linear" data-aos-duration="300" data-aos="zoom-in" data-aos-delay="300" className=' w-3/4'>
     
-        <div className='w-[500px] relative' >
+        <div className='w-[300px] lg:w-[500px] relative' >
             <img className='w-full' src={welcome1} alt="" />
             <div className='absolute top-0 w-16'>
                 <img src={leaf1} alt="" />

@@ -10,7 +10,7 @@ export const Footer = () => {
             <p className='w-80 py-4'>Aenean luctus nulla sit amet nibh ultricies, sit amet gravida libero venenatis. Nunc eu consectetur nisl. Phasellus ligula quam, maximus in hendrerit in, sagittis nec nisi.</p>
 
             <h1 className='font-semibold py-2'>OPENING HOURS</h1>
-            <div className='flex space-x-4 '>
+            <div className='md:flex leading-10 md:space-x-4 '>
 
             <div>
                 <p>Monday-Friday</p>
